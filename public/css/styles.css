@@ -207,6 +207,31 @@ hr
    
 }
 
+/* Monitor Patient's Page */
+.paramsTitle
+{
+    background-color: #1b1f3a;
+    margin-top: 250px;
+    margin-left: 50px;
+    width:450px;
+    
+}
+
+.title
+{
+    color:#eaeaea;
+    font-family: 'Inter';
+    font-size: 2.5rem !important;
+    padding: 20px;
+}
+iframe
+{
+    
+    margin-left: 50px;
+    width:450px;
+    height:260px; 
+    border: 1px solid #cccccc;
+}
 
 
 @media (min-width: 728px)
