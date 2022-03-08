@@ -1,32 +1,246 @@
-body
+html,body
 {
-    background-color: #41AEA9 !important;
+    background-color: #eaeaea !important;
+    max-width: 100%;
+    overflow-x: hidden;
 }
+
 .navbar 
 {
     padding: 15px;
     padding-right: auto;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position:fixed;
-    background-color: #41AEA9 !important; 
+    font-family: 'Inter';
+    width:100%;
+    position:fixed !important;
+    background-color: #1b1f3a !important; 
+    margin-right: 0;
+    z-index: 2;
 }
 
-.mapImg
+/* Description Page */
+.homeContent
 {
-    width:500px;
-    
+    padding-top: 0px;
 }
-.mapContainer
+.rowDesc
 {
-    border-right: 1px solid white;
-    border-style: dashed;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.doctor
+{
+    width:400px;
+    height: 550px;
+    
+    
 }
 .description
 {
-    width:70%;
+    width: 550px;
+    height:300px;
+    background-color:#dddddd;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.desc
+{
+    padding-left: 25px;
+    color:#1b1f3a;
+    font-family: 'Inter';
+}
+h1
+{
+    font-size: 5rem !important;
+    font-weight: 600 !important;
+
+}
+h3
+{
+    font-weight: 50 !important;
+    font-size: 1rem !important;
+}
+hr
+{
+    
+    border: solid 2px #1b1f3a !important;
+    
+}
+.mobileApp
+{
+    width: 450px;
+    height: 570px;
+    transform: rotate(10deg);
+    margin-left: 100px;
+    padding-left: 50px;
+    position: absolute;
 }
 
-.firstPageDes
+/* Features Page */
+
+.featuresPage
 {
-   margin-top: 50px;
+    background-color: #1b1f3a;
+    color: #eaeaea;
+    font-family: 'Inter';
+    position:relative;
+    padding: 7% 15% !important;
+    text-align: center;
+    
 }
+.icons
+{
+    width:100px;
+    background-color:#eaeaea;
+    border-radius: 10%;
+    margin-bottom: 30px;
+    
+
+    
+}
+
+.secondrow
+{
+    padding-top: 60px;
+}
+
+/* Contact Page */
+.contact
+{
+    background-color: #eaeaea;
+    font-family: 'Inter';
+    text-align: center;
+    padding:7% 10%;
+}
+
+.picture
+{
+    width:120px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+/* Footer */
+
+#footer
+  {
+      background-color:#1b1f3a ;
+      
+      height: 100px;
+      padding-top: 20px !important;
+      font-family: 'Inter';
+      text-align: center;
+      margin-bottom: 0;
+      bottom:0
+  }
+
+
+  .footer-para
+  {
+      margin-bottom: 10px !important;
+      font-size: 0.65rem;
+      color:#eaeaea;
+
+  }
+
+  .icons-footer
+  {
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      margin-top: 1rem !important;
+      color:#eaeaea;
+      margin-bottom: 10px;
+  }
+
+  @media (max-width: 1028px)
+{
+    body
+    {
+       max-width:100%;
+       overflow-x: hidden;
+    };
+    .homeContent
+    {
+       padding-top: 0px;
+    }
+
+    .rowDesc
+    {
+        padding-top: 0px;
+    }
+    .doctor
+    {
+        display:none;
+    }
+    .description
+    {
+        margin-left:0;
+        width:300px;
+        margin-bottom: 50px;
+        padding-top: 0px;
+
+    }
+    h1
+    {
+        font-weight:600 !important;
+        font-size:2rem !important;
+    }
+
+    .desc{
+        text-align: center;
+        padding-left: 2px;
+    }
+    .forMediaPhone
+    {
+        padding-left: 0px !important;
+    }
+
+    .mobileApp
+    {
+        
+        position:static;
+        transform: rotate(0);
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+        width: 350px;
+    }
+
+   
+}
+
+/* Monitor Patient's Page */
+.paramsTitle
+{
+    background-color: #1b1f3a;
+    margin-top: 250px;
+    margin-left: 50px;
+    width:450px;
+    
+}
+
+.title
+{
+    color:#eaeaea;
+    font-family: 'Inter';
+    font-size: 2.5rem !important;
+    padding: 20px;
+}
+iframe
+{
+    
+    margin-left: 50px;
+    width:450px;
+    height:260px; 
+    border: 1px solid #cccccc;
+}
+
+
+@media (min-width: 728px)
+{
+    .homeContent
+    {
+        padding-top: 100px;
+    }
+}
+
+
+
